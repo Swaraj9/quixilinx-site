@@ -1,0 +1,45 @@
+.nb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: var(--light);
+}
+
+.nb-logo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.nb-logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+.nb-links{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nb-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+    font-size: 1.25rem;
+    border-bottom: 2px solid transparent;
+    transition-duration: 200ms;
+}
+
+.nb-link:hover{
+    border-bottom: 3px solid var(--dark);
+}
+
+.nb-link-button{
+    text-decoration: none;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+}

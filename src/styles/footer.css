@@ -1,0 +1,23 @@
+.ft{
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 3rem;
+}
+
+.ft-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.ft-txt{
+    color: rgb(150,150,150);
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ft-txt-icon{
+    font-size: 1.5rem;
+}

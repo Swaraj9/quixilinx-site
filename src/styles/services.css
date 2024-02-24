@@ -1,0 +1,51 @@
+.svs{
+    padding: 3rem;
+    background-color: var(--light);
+    height: 100vh;
+}
+
+.svs-title{
+    color: var(--primary);
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.svs-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sv{
+    background-color: var(--dark);
+    margin: 1rem;
+    color: var(--light);
+    padding: 1rem 1.5rem;
+    width: 300px;
+    padding-bottom: 5rem;
+    transition-duration: 300ms;
+    border: 10px solid var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 95%, 0 75%);
+}
+
+.sv:hover{
+    border: 10px solid var(--primary);
+}
+
+.sv-title{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.sv-header{
+    font-size: 2rem;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.sv-icon{
+    font-size: 2.5rem;
+}
