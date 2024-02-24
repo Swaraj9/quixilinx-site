@@ -9,15 +9,7 @@ import { motion } from "framer-motion";
 const Services = () => {
   return (
     <div id="services" className="svs">
-      <motion.div
-        initial={{ translateX: -1000 }}
-        whileInView={{ translateX: 0 }}
-        transition={{delay: 0.2}}
-        viewport={{once:true}}
-        className="svs-title"
-      >
-        Our Services
-      </motion.div>
+      <div className="svs-title">Our Services</div>
       <div className="svs-main">
         <Serivce
           icon={<MdOutlineWeb />}
@@ -56,7 +48,7 @@ const Serivce = ({ icon, name, desc }) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      transition={{ duration: 1, delay:0.2 }}
+      transition={{ duration: 1, delay: 0.2 }}
     >
       <div className="sv-header">
         <div className="sv-icon">{icon}</div>

@@ -67,3 +67,36 @@
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
 }
+
+@media screen and (max-width: 700px){
+    .hm-logo{
+        display: none;
+    }
+
+    .hm{
+        height: 85vh;
+        padding-left: 1rem;
+        padding-bottom: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+        margin-bottom: 0;
+    }
+
+    .hm-txt-main{
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+
+    .hm-txt{
+        flex:1;
+        width: 100%;
+    }
+
+    .hm-txt-sec{
+        width: 100%;
+        font-size: 1.25rem;
+    }
+
+    .hm-link{
+        display: none;
+    }
+}

@@ -21,3 +21,9 @@
 .ft-txt-icon{
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 700px){
+    .ft{
+        padding: 1rem;
+    }
+}
