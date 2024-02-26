@@ -22,9 +22,25 @@
     justify-content: center;
 }
 
+@keyframes breathe{
+    0%{
+        transform: translateY(20px) scale(1);
+    }
+    50%{
+        transform: translateY(0px) scale(1.05);
+    }
+    100%{
+        transform: translateY(20px) scale(1);
+    }
+}
+
 .hm-logo-img{
     width: 70%;
+    animation-name: breathe;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+
 
 .hm-txt-main{
     font-size: 7rem;
@@ -66,6 +82,17 @@
     color: var(--light);
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
+}
+
+@media screen and (max-width: 1000px){
+    .hm-txt-main{
+        font-size: 5rem;
+        line-height: 5.5rem;
+    }
+
+    .hm-txt-sec{
+        font-size: 1.25rem;
+    }
 }
 
 @media screen and (max-width: 700px){
